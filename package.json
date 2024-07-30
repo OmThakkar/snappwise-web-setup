@@ -1,0 +1,23 @@
+{
+  "name": "snappwise-web-setup",
+  "version": "1.0.0",
+  "description": "A setup package for Snappwise web projects.",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "build": "npx tailwindcss -i ./static/stylesheets/input.css -o ./static/stylesheets/output.css --watch"
+  },
+  "keywords": [
+    "Snappwise",
+    "web",
+    "setup"
+  ],
+  "author": "Om Thakkar Snappwise",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmThakkar/snappwise-web-setup.git" 
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
